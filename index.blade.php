@@ -264,9 +264,9 @@
                       loading="lazy" alt="" />
                   </div>
                 </a><a href="https://www.listenup.ai/product/ai-features" class="ressouce-card hide w-inline-block"><img
-                    src="{{ asset('assets/recorder.png') }}" loading="lazy" sizes="100vw" srcset="
+                    src="/assets/recorder.png" loading="lazy" sizes="100vw" srcset="
                         https://cdn.prod.website-files.com/635584277e62506ebe08fb74/6623fe4fd21ff54f50fa8e59_recorder%20(2)-p-500.png 500w,
-                        {{ asset('assets/recorder.png') }}       838w
+                        /assets/recorder.png       838w
                       " alt="" class="image-57" />
                   <div class="div-block-148">
                     <div class="div-block-149">
@@ -280,9 +280,9 @@
                       loading="lazy" alt="" />
                   </div>
                 </a><a href="product/meeting-recorder" class="ressouce-card hover-button w-inline-block"><img
-                    src="{{ asset('assets/recorder.png') }}" loading="lazy" sizes="100vw" srcset="
+                    src="/assets/recorder.png" loading="lazy" sizes="100vw" srcset="
                         https://cdn.prod.website-files.com/635584277e62506ebe08fb74/6623fe4fd21ff54f50fa8e59_recorder%20(2)-p-500.png 500w,
-                        {{ asset('assets/recorder.png') }}       838w
+                        /assets/recorder.png       838w
                       " alt="" class="image-57" />
                   <div class="div-block-148">
                     <div class="div-block-149">
@@ -370,10 +370,10 @@
             </div>
           </div>
           <div class="div-block-151">
-            <a href="{{ route('login') }}" class="navigation-link w-inline-block">
+            <a href="{{ route('login" class="navigation-link w-inline-block">
               <div class="navigation-link-text">Log in</div>
             </a>
-            <a href="{{ route('login') }}" class="yellow-cta w-inline-block">
+            <a href="{{ route('login" class="yellow-cta w-inline-block">
               <div class="_16-bold">Get started</div>
               <img src="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/654aa5379216bde4e6c4ea1c_arrow.svg"
                 loading="lazy" alt="" />
@@ -498,7 +498,7 @@
                     rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
                   transform: translate3d(0, -20px, 0) scale3d(1, 1, 1)
                     rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                " href="{{ route('login') }}" class="yellow-cta w-inline-block">
+                " href="{{ route('login" class="yellow-cta w-inline-block">
               <div class="_16-bold">
                 Get started <span class="text-span-5">- it&#x27;s free</span>
               </div>
@@ -1476,7 +1476,7 @@
                           </div>
                         </div>
                         <div class="cta-position-left">
-                          <a href="{{  route("login") }}" class="yellow-cta full-width w-inline-block">
+                          <a href="{{  route("login" class="yellow-cta full-width w-inline-block">
                             <div class="_16-bold">Get started for free</div>
                             <img loading="lazy"
                               src="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/654aa5379216bde4e6c4ea1c_arrow.svg"
@@ -1537,7 +1537,7 @@
                     <div tabindex="0" class="starAnimationBlock card-1 purple-card">
                       <img style="    position: absolute;
     top: -20px;
-    right: -15px;" src="{{ asset("assets/star.png") }}" class="starAnimation" alt="">
+    right: -15px;" src="/assets/star.png" class="starAnimation" alt="">
 
                       <div class="div-block-13">
                         <div class="text-block-8">Pro</div>
@@ -1652,7 +1652,7 @@
                           </div>
                         </div>
                         <div>
-                          <a href="{{  route("login") }}" class="yellow-cta full-width w-inline-block">
+                          <a href="{{  route("login" class="yellow-cta full-width w-inline-block">
                             <div class="_16-bold">Get started for free</div>
                             <img loading="lazy"
                               src="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/654aa5379216bde4e6c4ea1c_arrow.svg"
@@ -1961,7 +1961,7 @@
                     <div tabindex="0" class="starAnimationBlock card-1 purple-card">
                       <img style="    position: absolute;
     top: -20px;
-    right: -15px;" src="{{ asset("assets/star.png") }}" class="starAnimation" alt="">
+    right: -15px;" src="/assets/star.png" class="starAnimation" alt="">
                       <style>
                         .starAnimationBlock {
                           position: relative;
@@ -2566,7 +2566,7 @@
       <div class="container">
         <div class="div-block-56">
           <div class="huge-yellow-cta-wrapper">
-            <a data-w-id="53678440-9976-8967-2914-b7fb1ae1b11e" href="{{  route("login") }}"
+            <a data-w-id="53678440-9976-8967-2914-b7fb1ae1b11e" href="{{  route("login"
               class="yellow-cta-huge w-inline-block">
               <div class="home-cta-text-huge">Get started</div>
               <img src="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/654aa5379216bde4e6c4ea1c_arrow.svg"
@@ -2591,12 +2591,12 @@
           <div class="div-block-7">
             <div class="div-block-78">
               <div class="div-block-77">
-                <a href="{{  route("login") }}" class="yellow-cta w-inline-block">
+                <a href="{{  route("login" class="yellow-cta w-inline-block">
                   <div class="_16-bold">Get started for free</div><img
                     src="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/654aa5379216bde4e6c4ea1c_arrow.svg"
                     loading="lazy" alt="" />
                 </a><a href="#" class="product-hunt-badge hover-button w-inline-block"><img
-                    src="{{ asset('assets/product.png')}}"></a>
+                    src="/assets/product.png"></a>
               </div>
               <div class="div-block-69">
                 <div class="footer-container">
