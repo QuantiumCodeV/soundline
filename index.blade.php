@@ -3,7 +3,128 @@
 <html data-wf-domain="www.listenup.ai" data-wf-page="635584277e625039cd08fb75" data-wf-site="635584277e62506ebe08fb74">
 
 <head>
-  @include('fonts')
+   <style>
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 200;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-ExtraLight.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 200;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-ExtraLightItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 300;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Light.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 300;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-LightItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 400;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Regular.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 400;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-Italic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 500;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Medium.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 500;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-MediumItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 600;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-SemiBold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 600;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-SemiBoldItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 700;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Bold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 700;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-BoldItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 800;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-ExtraBold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 800;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-ExtraBoldItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 400;
+            font-style: normal;
+            src: url('/assets/ListenUpTitle-Regular.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 400;
+            font-style: italic;
+            src: url('/assets/ListenUpTitle-RegularItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 500;
+            font-style: normal;
+            src: url('/assets/ListenUpTitle-Medium.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 500;
+            font-style: italic;
+            src: url('/assets/ListenUpTitle-MediumItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 700;
+            font-style: normal;
+            src: url('/assets/ListenUpTitle-Bold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 700;
+            font-style: italic;
+            src: url('/assets/ListenUpTitle-BoldItalic.woff2') format('woff2');
+        }
+    </style>
   <link href="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/63558f9ff9e1cc03ead6aea4_32.png"
     rel="shortcut icon" type="image/x-icon" />
   <link href="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/63558f5e63bfed5fc2509a07_256.png"
@@ -370,10 +491,10 @@
             </div>
           </div>
           <div class="div-block-151">
-            <a href="{{ route('login" class="navigation-link w-inline-block">
+            <a href="/login" class="navigation-link w-inline-block">
               <div class="navigation-link-text">Log in</div>
             </a>
-            <a href="{{ route('login" class="yellow-cta w-inline-block">
+            <a href="/login" class="yellow-cta w-inline-block">
               <div class="_16-bold">Get started</div>
               <img src="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/654aa5379216bde4e6c4ea1c_arrow.svg"
                 loading="lazy" alt="" />
@@ -498,7 +619,7 @@
                     rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
                   transform: translate3d(0, -20px, 0) scale3d(1, 1, 1)
                     rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                " href="{{ route('login" class="yellow-cta w-inline-block">
+                " href="/login" class="yellow-cta w-inline-block">
               <div class="_16-bold">
                 Get started <span class="text-span-5">- it&#x27;s free</span>
               </div>
@@ -1476,7 +1597,7 @@
                           </div>
                         </div>
                         <div class="cta-position-left">
-                          <a href="{{  route("login" class="yellow-cta full-width w-inline-block">
+                          <a href="/login" class="yellow-cta full-width w-inline-block">
                             <div class="_16-bold">Get started for free</div>
                             <img loading="lazy"
                               src="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/654aa5379216bde4e6c4ea1c_arrow.svg"
@@ -1652,7 +1773,7 @@
                           </div>
                         </div>
                         <div>
-                          <a href="{{  route("login" class="yellow-cta full-width w-inline-block">
+                          <a href="/login" class="yellow-cta full-width w-inline-block">
                             <div class="_16-bold">Get started for free</div>
                             <img loading="lazy"
                               src="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/654aa5379216bde4e6c4ea1c_arrow.svg"
@@ -2566,7 +2687,7 @@
       <div class="container">
         <div class="div-block-56">
           <div class="huge-yellow-cta-wrapper">
-            <a data-w-id="53678440-9976-8967-2914-b7fb1ae1b11e" href="{{  route("login"
+            <a data-w-id="53678440-9976-8967-2914-b7fb1ae1b11e" href="/login"
               class="yellow-cta-huge w-inline-block">
               <div class="home-cta-text-huge">Get started</div>
               <img src="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/654aa5379216bde4e6c4ea1c_arrow.svg"
@@ -2591,7 +2712,7 @@
           <div class="div-block-7">
             <div class="div-block-78">
               <div class="div-block-77">
-                <a href="{{  route("login" class="yellow-cta w-inline-block">
+                <a href="/login" class="yellow-cta w-inline-block">
                   <div class="_16-bold">Get started for free</div><img
                     src="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/654aa5379216bde4e6c4ea1c_arrow.svg"
                     loading="lazy" alt="" />

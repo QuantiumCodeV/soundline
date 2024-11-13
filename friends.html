@@ -2,10 +2,252 @@
 
 <!-- saved from url=(0040){{ route("friends -->
 <html style="">
-@include('fonts')
+ <style>
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 200;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-ExtraLight.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 200;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-ExtraLightItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 300;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Light.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 300;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-LightItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 400;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Regular.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 400;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-Italic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 500;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Medium.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 500;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-MediumItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 600;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-SemiBold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 600;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-SemiBoldItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 700;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Bold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 700;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-BoldItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 800;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-ExtraBold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 800;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-ExtraBoldItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 400;
+            font-style: normal;
+            src: url('/assets/ListenUpTitle-Regular.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 400;
+            font-style: italic;
+            src: url('/assets/ListenUpTitle-RegularItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 500;
+            font-style: normal;
+            src: url('/assets/ListenUpTitle-Medium.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 500;
+            font-style: italic;
+            src: url('/assets/ListenUpTitle-MediumItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 700;
+            font-style: normal;
+            src: url('/assets/ListenUpTitle-Bold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 700;
+            font-style: italic;
+            src: url('/assets/ListenUpTitle-BoldItalic.woff2') format('woff2');
+        }
+    </style>
 
 <head>
-  @include('fonts')
+   <style>
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 200;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-ExtraLight.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 200;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-ExtraLightItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 300;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Light.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 300;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-LightItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 400;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Regular.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 400;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-Italic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 500;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Medium.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 500;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-MediumItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 600;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-SemiBold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 600;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-SemiBoldItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 700;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Bold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 700;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-BoldItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 800;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-ExtraBold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 800;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-ExtraBoldItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 400;
+            font-style: normal;
+            src: url('/assets/ListenUpTitle-Regular.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 400;
+            font-style: italic;
+            src: url('/assets/ListenUpTitle-RegularItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 500;
+            font-style: normal;
+            src: url('/assets/ListenUpTitle-Medium.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 500;
+            font-style: italic;
+            src: url('/assets/ListenUpTitle-MediumItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 700;
+            font-style: normal;
+            src: url('/assets/ListenUpTitle-Bold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 700;
+            font-style: italic;
+            src: url('/assets/ListenUpTitle-BoldItalic.woff2') format('woff2');
+        }
+    </style>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
   <meta content="width=device-width" name="viewport" />
   <title>Friends | ListenUp!</title>
@@ -673,7 +915,7 @@
                   <a aria-controls="radix-:r50:-content-home" aria-selected="false"
                     class="px-3 py-2 rounded border-opacity-0 flex items-center z-10 hover:bg-neutral-100 hover:transition-colors hover:cursor-cool-clickable disabled:cursor-cool-normal w-fit justify-center"
                     data-orientation="horizontal" data-radix-collection-item="" data-state="inactive"
-                    href="{{ route("home" id="radix-:r50:-trigger-home" role="tab" tabindex="-1" type="button">
+                    href="/home" id="radix-:r50:-trigger-home" role="tab" tabindex="-1" type="button">
                     <div class="flex items-center justify-center gap-2 py-1">
                       <svg class="h-6 w-6" data-name="Layer 3" style="max-width: 50vw; max-height: 50vh"
                         viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -687,7 +929,7 @@
                   </a><a aria-controls="radix-:r50:-content-captures" aria-selected="false"
                     class="px-3 py-2 rounded border-opacity-0 flex items-center z-10 hover:bg-neutral-100 hover:transition-colors hover:cursor-cool-clickable disabled:cursor-cool-normal w-fit justify-center"
                     data-orientation="horizontal" data-radix-collection-item="" data-state="inactive"
-                    href="{{ route("captures" id="radix-:r50:-trigger-captures" role="tab" tabindex="-1"
+                    href="/captures" id="radix-:r50:-trigger-captures" role="tab" tabindex="-1"
                     type="button">
                     <div class="flex items-center justify-center gap-2 py-1">
                       <svg class="h-6 w-6" fill="none" style="max-width: 50vw; max-height: 50vh" viewbox="0 0 24 24"
@@ -701,7 +943,7 @@
                   </a><a aria-controls="radix-:r50:-content-insights" aria-selected="false"
                     class="px-3 py-2 rounded border-opacity-0 flex items-center z-10 hover:bg-neutral-100 hover:transition-colors hover:cursor-cool-clickable disabled:cursor-cool-normal w-fit justify-center"
                     data-orientation="horizontal" data-radix-collection-item="" data-state="inactive"
-                    href="{{ route("meetings" id="radix-:r50:-trigger-insights" role="tab" tabindex="-1"
+                    href="/meetings" id="radix-:r50:-trigger-insights" role="tab" tabindex="-1"
                     type="button">
                     <div class="flex items-center justify-center gap-2 py-1">
                       <svg class="h-6 w-6" style="max-width: 50vw; max-height: 50vh" viewbox="0 0 24 24"
@@ -715,7 +957,7 @@
                   </a><a aria-controls="radix-:r50:-content-analytics" aria-selected="false"
                     class="px-3 py-2 rounded border-opacity-0 flex items-center z-10 hover:bg-neutral-100 hover:transition-colors hover:cursor-cool-clickable disabled:cursor-cool-normal w-fit justify-center"
                     data-orientation="horizontal" data-radix-collection-item="" data-state="inactive"
-                    href="{{ route("analytics" id="radix-:r50:-trigger-analytics" role="tab" tabindex="-1"
+                    href="/analytics"" id="radix-:r50:-trigger-analytics" role="tab" tabindex="-1"
                     type="button">
                     <div class="flex items-center justify-center gap-2 py-1">
                       <svg class="h-6 w-6" style="max-width: 50vw; max-height: 50vh" viewbox="0 0 24 24"
@@ -730,7 +972,7 @@
                   </a><a aria-controls="radix-:r50:-content-users" aria-selected="true"
                     class="px-3 py-2 rounded border-opacity-0 flex items-center z-10 hover:cursor-cool-clickable disabled:cursor-cool-normal w-fit justify-center"
                     data-orientation="horizontal" data-radix-collection-item="" data-state="active"
-                    href="{{ route("friends" id="radix-:r50:-trigger-users" role="tab" tabindex="-1" type="button">
+                    href="/friends" id="radix-:r50:-trigger-users" role="tab" tabindex="-1" type="button">
                     <div class="flex items-center justify-center gap-2 py-1">
                       <svg class="h-6 w-6 stroke-1.5" style="max-width: 50vw; max-height: 50vh" viewbox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
@@ -2239,8 +2481,8 @@
 </body>
 
 </html>
-@include('feedback')
-@include('profileSettings')
+<script src="/feedback.js"></script>
+<script src="/profileSettings.js"></script>
 <script>
   function showInput() {
     var inputContainer = document.getElementById("inputContainer");

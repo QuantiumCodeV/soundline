@@ -3,7 +3,128 @@
 <html style="">
 
 <head>
-  @include('fonts')
+   <style>
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 200;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-ExtraLight.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 200;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-ExtraLightItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 300;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Light.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 300;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-LightItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 400;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Regular.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 400;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-Italic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 500;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Medium.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 500;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-MediumItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 600;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-SemiBold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 600;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-SemiBoldItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 700;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-Bold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 700;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-BoldItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 800;
+            font-style: normal;
+            src: url('/assets/PlusJakartaSans-ExtraBold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'jakarta';
+            font-weight: 800;
+            font-style: italic;
+            src: url('/assets/PlusJakartaSans-ExtraBoldItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 400;
+            font-style: normal;
+            src: url('/assets/ListenUpTitle-Regular.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 400;
+            font-style: italic;
+            src: url('/assets/ListenUpTitle-RegularItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 500;
+            font-style: normal;
+            src: url('/assets/ListenUpTitle-Medium.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 500;
+            font-style: italic;
+            src: url('/assets/ListenUpTitle-MediumItalic.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 700;
+            font-style: normal;
+            src: url('/assets/ListenUpTitle-Bold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'listenup-title';
+            font-weight: 700;
+            font-style: italic;
+            src: url('/assets/ListenUpTitle-BoldItalic.woff2') format('woff2');
+        }
+    </style>
   <link href="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/63558f9ff9e1cc03ead6aea4_32.png"
     rel="shortcut icon" type="image/x-icon" />
   <link href="https://cdn.prod.website-files.com/635584277e62506ebe08fb74/63558f5e63bfed5fc2509a07_256.png"
@@ -676,7 +797,7 @@
                     data-state="inactive" id="radix-:r4q:-trigger-captures"
                     class="px-3 py-2 rounded border-opacity-0 flex items-center z-10 hover:bg-neutral-100 hover:transition-colors hover:cursor-cool-clickable disabled:cursor-cool-normal w-fit justify-center"
                     tabindex="-1" data-orientation="horizontal" data-radix-collection-item=""
-                    href="{{  route("inbox">
+                    href="/inbox">
                     <div class="flex items-center justify-center gap-2 py-1">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="h-6 w-6"
                         style="max-width: 50vw; max-height: 50vh">
@@ -690,7 +811,7 @@
                     data-state="inactive" id="radix-:r4q:-trigger-insights"
                     class="px-3 py-2 rounded border-opacity-0 flex items-center z-10 hover:bg-neutral-100 hover:transition-colors hover:cursor-cool-clickable disabled:cursor-cool-normal w-fit justify-center"
                     tabindex="-1" data-orientation="horizontal" data-radix-collection-item=""
-                    href="{{ route("meetings")  }}">
+                    href="/meetings")  }}">
                     <div class="flex items-center justify-center gap-2 py-1">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-6 w-6"
                         style="max-width: 50vw; max-height: 50vh">
@@ -704,7 +825,7 @@
                     data-state="inactive" id="radix-:r4q:-trigger-analytics"
                     class="px-3 py-2 rounded border-opacity-0 flex items-center z-10 hover:bg-neutral-100 hover:transition-colors hover:cursor-cool-clickable disabled:cursor-cool-normal w-fit justify-center"
                     tabindex="-1" data-orientation="horizontal" data-radix-collection-item=""
-                    href="{{ route("analytics")  }}">
+                    href="/analytics"")  }}">
                     <div class="flex items-center justify-center gap-2 py-1">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-6 w-6"
                         style="max-width: 50vw; max-height: 50vh">
@@ -720,7 +841,7 @@
                     data-state="inactive" id="radix-:r4q:-trigger-users"
                     class="px-3 py-2 rounded border-opacity-0 flex items-center z-10 hover:bg-neutral-100 hover:transition-colors hover:cursor-cool-clickable disabled:cursor-cool-normal w-fit justify-center"
                     tabindex="-1" data-orientation="horizontal" data-radix-collection-item=""
-                    href="{{ route("friends")  }}">
+                    href="/friends")  }}">
                     <div class="flex items-center justify-center gap-2 py-1">
                       <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-1.5"
                         style="max-width: 50vw; max-height: 50vh">
@@ -750,36 +871,32 @@
                   </svg>
                   <p class="text-neutral-600">Send us a feedback</p>
                 </div>
-              </button><button type="button"
-                class="flex items-center justify-center w-fit rounded font-medium transition-colors select-none text-neutral-600 px-3 py-2"
-                id="profile" aria-haspopup="menu" aria-expanded="false" data-state="closed" tabindex="0"
-                style="transform: none">
-                <div class="flex flex-row items-center justify-center gap-2 text-left mr-2">
-                  <div class="relative">
+              </button><button aria-expanded="false" aria-haspopup="menu"
+              class="flex items-center justify-center w-fit rounded font-medium transition-colors select-none text-neutral-600 px-3 py-2"
+              data-state="closed" id="profile" tabindex="0" type="button">
+              <div class="flex flex-row items-center justify-center gap-2 text-left mr-2">
+                <div class="relative">
+                  <div
+                    class="rounded-full border-neutral-700 relative overflow-hidden flex items-center justify-center bg-primary-500 relative w-10 h-10 min-w-[2.5rem] min-h-[2.5rem] border-1">
+                    <img alt="Avatar" class="object-cover"
+                      src="" id="avatar_main"
+                      style="height:100%" /></div>
+                  <div class="absolute -bottom-1 -right-1">
                     <div
-                      class="rounded-full border-neutral-700 relative overflow-hidden flex items-center justify-center bg-primary-500 relative w-10 h-10 min-w-[2.5rem] min-h-[2.5rem] border-1">
-                      <img id="avatar_3" style="height:100%"
-                        src="{{ auth()->user()->avatar ? asset('storage/' . auth()->user()->avatar) : asset('assets/member_avatar_453.png"
-                        alt="Avatar" class="object-cover" />
-                    </div>
-                    <div class="absolute -bottom-1 -right-1">
-                      <div
-                        class="rounded-full border-neutral-700 relative overflow-hidden flex items-center justify-center bg-primary-500 relative w-5 h-5 min-w-[1rem] min-h-[1rem] border-1">
-                        <img src="{{asset("assets/organization_avatar_476.png")}}" alt="Avatar" class="object-cover" />
-                      </div>
+                      class="rounded-full border-neutral-700 relative overflow-hidden flex items-center justify-center bg-primary-500 relative w-5 h-5 min-w-[1rem] min-h-[1rem] border-1">
+                      <img alt="Avatar" class="object-cover" src="/assets/organization_avatar_508.png" />
                     </div>
                   </div>
-                  <h5 class="font-bold">{{ auth()->user()->name}}</h5>
                 </div>
-                <div style="transform: none">
-                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6"
-                    style="max-width: 50vw; max-height: 50vh">
-                    <path d="m8 10 4 4 4-4" stroke-linecap="round" class="stroke-2 stroke-neutral-700" stroke="#323232"
-                      fill="none" stroke-linejoin="round"></path>
-                    <path fill="none" d="M0 0h24v24H0Z"></path>
-                  </svg>
-                </div>
-              </button>
+                <h5 class="font-bold" id="username_main"></h5>
+              </div>
+              <div><svg class="h-6" style="max-width: 50vw; max-height: 50vh;" viewbox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path class="stroke-2 stroke-neutral-700" d="m8 10 4 4 4-4" fill="none" stroke="#323232"
+                    stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M0 0h24v24H0Z" fill="none"></path>
+                </svg></div>
+            </button>
             </div>
           </section>
           <style>
@@ -1145,7 +1262,7 @@ right: -15px;" src="/assets/star.png")}}" class="starAnimation" alt="">
                                 Use the native integrations to import them automatically or
                                 import manually via a CSV.</p>
                               <div class="pb-2 w-full flex items-center justify-start">
-                                <button type="button" onclick="window.location.href='{{ route('inbox'"
+                                <button type="button" onclick="window.location.href='inbox'"
                                   class="flex items-center justify-center gap-2 rounded font-medium leading-4 whitespace-nowrap overflow-hidden text-overflow-ellipsis w-auto min-w-0 min-h-0 select-none px-3 py-2 bg-secondary-300 border-[2px] border-neutral-700 shadow-smoothxl opacity-100"
                                   tabindex="0" style="transform: none">
                                   <h4>Import your first feedback</h4>
@@ -1215,7 +1332,7 @@ right: -15px;" src="/assets/star.png")}}" class="starAnimation" alt="">
                                 valuable parts. This will create an insight. You will find all your insights in its tab.
                               </p>
                               <div class="pb-2 w-full flex items-center justify-start">
-                                <button type="button" onclick="window.location.href='{{ route('inbox'"
+                                <button type="button" onclick="window.location.href='/inbox'"
                                   class="flex items-center justify-center gap-2 rounded font-medium leading-4 whitespace-nowrap overflow-hidden text-overflow-ellipsis w-auto min-w-0 min-h-0 select-none px-3 py-2 bg-secondary-300 border-[2px] border-neutral-700 shadow-smoothxl opacity-100"
                                   tabindex="0" style="transform: none">
                                   <h4>Create your first insight</h4>
@@ -1287,7 +1404,7 @@ right: -15px;" src="/assets/star.png")}}" class="starAnimation" alt="">
                                 forget about the AI translator!
                               </p>
                               <div class="pb-2 w-full flex items-center justify-start">
-                                <button type="button" onclick="window.location.href='{{ route('inbox'"
+                                <button type="button" onclick="window.location.href='/inbox'"
                                   class="flex items-center justify-center gap-2 rounded font-medium leading-4 whitespace-nowrap overflow-hidden text-overflow-ellipsis w-auto min-w-0 min-h-0 select-none px-3 py-2 bg-secondary-300 border-[2px] border-neutral-700 shadow-smoothxl opacity-100"
                                   tabindex="0" style="transform: none">
                                   <h4>Create your first pattern</h4>
@@ -1358,7 +1475,7 @@ right: -15px;" src="/assets/star.png")}}" class="starAnimation" alt="">
                                 solving and share the pattern with a friend
                               </p>
                               <div class="pb-2 w-full flex items-center justify-start">
-                                <button type="button" onclick="window.location.href='{{ route('inbox'"
+                                <button type="button" onclick="window.location.href='/inbox'"
                                   class="flex items-center justify-center gap-2 rounded font-medium leading-4 whitespace-nowrap overflow-hidden text-overflow-ellipsis w-auto min-w-0 min-h-0 select-none px-3 py-2 bg-secondary-300 border-[2px] border-neutral-700 shadow-smoothxl opacity-100"
                                   tabindex="0" style="transform: none">
                                   <h4>Share a pattern</h4>
@@ -1428,7 +1545,7 @@ right: -15px;" src="/assets/star.png")}}" class="starAnimation" alt="">
                                 functionality on the website and in the SoundLine app!
                               </p>
                               <div class="pb-2 w-full flex items-center justify-start">
-                                <button type="button" onclick="window.location.href='{{ route('friends'"
+                                <button type="button" onclick="window.location.href='/friends'"
                                   class="flex items-center justify-center gap-2 rounded font-medium leading-4 whitespace-nowrap overflow-hidden text-overflow-ellipsis w-auto min-w-0 min-h-0 select-none px-3 py-2 bg-secondary-300 border-[2px] border-neutral-700 shadow-smoothxl opacity-100"
                                   tabindex="0" style="transform: none">
                                   <h4>Invite your friends</h4>
@@ -1479,7 +1596,7 @@ right: -15px;" src="/assets/star.png")}}" class="starAnimation" alt="">
                 type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r52:"
                 data-state="closed">
                 <img alt="SoundLine Illustration Logo" loading="lazy" width="25" height="25" decoding="async"
-                  data-nimg="1" src="{{  asset("assets/ListenUp-Logo.svg " style="color: transparent" />
+                  data-nimg="1" src="/assets/logo.png" style="color: transparent" />
               </div>
             </div>
             <div
@@ -5944,7 +6061,7 @@ right: -15px;" src="/assets/star.png")}}" class="starAnimation" alt="">
   }
 </style>
 <script src="/avatar.js"></script>
-@include('feedback')@include('profileSettings') <script>
+<script src="/feedback.js"></script><script src="/profileSettings.js"></script> <script>
   let ifDownloadOpen = false;
   function showInput() {
     console.log(ifDownloadOpen)
@@ -5976,38 +6093,40 @@ right: -15px;" src="/assets/star.png")}}" class="starAnimation" alt="">
     var meetingCode = document.getElementById("meetingInput").value;
     var button_block = document.getElementById("button_block");
 
-    $.ajax({
-      url: "{{ route("api.code.check",
-      type: "GET",
-      data: {
-        code: meetingCode,
-        _token: "{{ csrf_token() }}"
+    const accessToken = localStorage.getItem("accessToken"); // Получаем токен доступа
+    fetch(`${backendDomain}/soundline/code/check/`, { // Используем эндпоинт для проверки кода
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${accessToken}`, // Добавляем заголовок авторизации
+        "Content-Type": "application/json",
       },
-      success: function (data) {
-        console.log(data)
-        if (data.message == "success") {
-          ifDownloadOpen = true;
-          var download_a_block = document.getElementById("download_block_a_href")
-          download_a_block.setAttribute("download", "")
-          download_a_block.href = data.download_url;
-          showSecondBlock()
-        } else {
-          button_block.classList.add("error_field");
-          button_block.style.transition = "all 0.3s ease";
-          setTimeout(function(){
-            button_block.classList.remove("error_field");
-          },2000)
-        }
-      },
-      error: function (data) {
-        console.log(data)
+      body: JSON.stringify({ code: meetingCode }) // Передаем код в теле запроса
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+      if (data.message === "success") {
+        ifDownloadOpen = true;
+        var download_a_block = document.getElementById("download_block_a_href");
+        download_a_block.setAttribute("download", "");
+        download_a_block.href = data.download_url;
+        showSecondBlock();
+      } else {
         button_block.classList.add("error_field");
         button_block.style.transition = "all 0.3s ease";
         setTimeout(function(){
-            button_block.classList.remove("error_field");
-          },2000)
+          button_block.classList.remove("error_field");
+        }, 2000);
       }
     })
+    .catch(error => {
+      console.log(error);
+      button_block.classList.add("error_field");
+      button_block.style.transition = "all 0.3s ease";
+      setTimeout(function(){
+        button_block.classList.remove("error_field");
+      }, 2000);
+    });
   }
 </script>
 <script>
